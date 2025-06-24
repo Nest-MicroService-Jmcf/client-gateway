@@ -14,8 +14,8 @@ import { options } from 'joi';
         name: PRODUCT_SERVICE,
         transport: Transport.TCP , 
         options: {
-          port: envs.productsMicroservicePort, 
-          host: envs.productsMicroserviceHost}
+          port: envs.ordersMicroservicePort, 
+          host: envs.ordersMicroserviceHost}
       
       },
        
